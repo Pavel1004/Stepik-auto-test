@@ -19,5 +19,5 @@ try:
     button.click()
 
 finally:
-    time.sleep(30)
+    time.sleep(10)
     browser.quit()

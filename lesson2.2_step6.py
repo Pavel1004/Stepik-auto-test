@@ -1,9 +1,11 @@
 from selenium import webdriver
 import time
 import math
+
+
 def calc():
     return str(math.log(abs(12*math.sin(int(x)))))
-    return arguments[0].scrollIntoView(true)
+
 
 try:
     link ="http://SunInJuly.github.io/execute_script.html"

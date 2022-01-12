@@ -1,8 +1,10 @@
 from selenium import webdriver
 import time
-import math
+
+
 def calc():
     return str(int(a) + int(b))
+
 
 try:
     link = "http://suninjuly.github.io/selects2.html"
@@ -17,6 +19,7 @@ try:
     drop.send_keys(z)
     button = browser.find_element_by_css_selector('[type ="submit"]')
     button.click()
+
 finally:
-  time.sleep(5)
-  browser.quit()
+    time.sleep(5)
+    browser.quit()
